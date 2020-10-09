@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Genome.dir/trial.cpp.o  -o Genome  -Wl,-rpath,/usr/local/lib /usr/local/lib/libhelib.so.1.0.0 /usr/local/lib/libntl.so /usr/lib/x86_64-linux-gnu/libgmp.so -lpthread 
