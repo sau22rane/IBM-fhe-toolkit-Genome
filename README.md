@@ -18,6 +18,7 @@ docker images
 3. Use **RunToolkit-modified.sh** and **StopToolkit-modified.sh** instead of RunToolkit.sh and StopToolkit.sh<br>
 Command: <br>
 ```
+sudo chmod 777 FHE-Toolkit-Workspace
 sudo ./RunToolkit-modified.sh -p -s ubuntu
 sudo ./StopToolkit-modified.sh
 ```
