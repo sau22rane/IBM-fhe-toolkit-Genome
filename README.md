@@ -19,7 +19,7 @@ docker images
 Command: <br>
 ```
 sudo ./RunToolkit-modified.sh -p -s ubuntu<br>
-sudo ./StopToolkit-modified.sh<br>
+sudo ./StopToolkit-modified.sh
 ```
 <br><br>
 All the changes will be saved under **Local/Genome** folder
