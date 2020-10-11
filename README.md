@@ -18,7 +18,7 @@ docker images
 3. Use **RunToolkit-modified.sh** and **StopToolkit-modified.sh** instead of RunToolkit.sh and StopToolkit.sh<br>
 Command: <br>
 ```
-sudo ./RunToolkit-modified.sh -p -s ubuntu<br>
+sudo ./RunToolkit-modified.sh -p -s ubuntu
 sudo ./StopToolkit-modified.sh
 ```
 <br><br>
