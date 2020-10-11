@@ -1,9 +1,26 @@
 # IBM-fhe-toolkit(Genome)
 Temporary repo for FHE based ML<br>
+Fetch the Toolkit Docker images by invoking the `FetchDockerImage.sh` 
+script followed by `<platform>` to select one of the supported platforms 
+(`centos`, `ubuntu`, `fedora` or `alpine`). The remaining of these instructions will use CentOS as the example platform.
+
+```
+./FetchDockerImage.sh centos
+```
+
+Check the image `ibmcom/fhe-toolkit-centos` was successfully downloaded 
+from Docker Hub.
+
+```
+docker images
+```
+
 Use **RunToolkit-modified.sh** and **StopToolkit-modified.sh** instead of RunToolkit.sh and StopToolkit.sh<br>
 Command: <br>
+```
 sudo ./RunToolkit-modified.sh -p -s ubuntu<br>
 sudo ./StopToolkit-modified.sh<br>
+```
 <br><br>
 All the changes will be saved under **Local/Genome** folder
 <br><br>
