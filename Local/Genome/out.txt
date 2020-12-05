@@ -1,0 +1,24 @@
+Initalizing HElib . . .
+HElib CKKS (WITH SECRET KEY)
+m=2048 r=52 L=1024 c=2
+SecurityLevel=-105
+Clearing ./Genome_output
+Saving client side context to ./Genome_output/client_context.bin
+Saving server side context to ./Genome_output/server_context.bin
+SuccessCLIENT: loading client side context . . .
+HElib CKKS (WITH SECRET KEY)
+m=2048 r=52 L=1024 c=2
+SecurityLevel=-105
+CLIENT: loading plain model . . .
+CLIENT: encrypting plain model . . .
+CLIENT: saving encrypted model . . .
+CLIENT: loading plain samples . . .
+Matrix 8 x 1
+    1.000
+   93.000
+   70.000
+   31.000
+    0.000
+   30.000
+    0.000
+   23.000

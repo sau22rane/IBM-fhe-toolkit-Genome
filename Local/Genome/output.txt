@@ -1,0 +1,87 @@
+Initalizing HElib . . .
+HElib CKKS (WITH SECRET KEY)
+m=2048 r=52 L=1024 c=2
+SecurityLevel=-105
+Clearing ./Genome_output
+Saving client side context to ./Genome_output/client_context.bin
+Saving server side context to ./Genome_output/server_context.bin
+SuccessCLIENT: loading client side context . . .
+HElib CKKS (WITH SECRET KEY)
+m=2048 r=52 L=1024 c=2
+SecurityLevel=-105
+CLIENT: loading plain model . . .
+
+Weights:
+Matrix 12 x 8
+   -0.613    0.243   -0.095   -0.341    0.326    0.048    1.546   -0.520
+   -0.004   -0.157   -0.297   -0.044    0.167   -0.664    1.549   -1.024
+   -0.894    0.101    0.361    0.353   -0.047   -0.187   -1.043   -0.639
+    0.291    0.095   -0.052   -0.271    0.466    0.154    0.953    0.020
+    0.199   -0.069   -0.208    0.185    0.317   -0.383    0.772    0.049
+   -0.227    0.423   -0.351    0.393   -0.146   -0.324    1.023    0.299
+   -0.045    0.162   -0.148   -0.249    0.247    0.073    0.018    0.446
+   -0.497   -0.178    0.175    0.196   -0.503    0.059    0.237    0.512
+    0.519   -0.128   -0.288   -0.127   -0.136    0.031   -0.025    0.009
+   -0.429   -0.270    0.283   -0.215    0.239    0.053   -0.484   -0.049
+    0.045    0.303   -0.352    0.001    0.334   -0.321   -1.099    0.467
+   -0.272    0.298   -0.050   -0.244   -0.458    0.314   -0.629    0.488
+
+
+Bias:
+Matrix 12 x 1
+    1.109
+   -0.272
+    0.421
+   -1.952
+   -1.447
+   -1.244
+   -0.324
+    0.704
+    0.000
+    1.674
+    2.054
+   -1.190
+
+CLIENT: encrypting plain model . . .
+CLIENT: saving encrypted model . . .
+Loading User data from data.txt file...
+
+User data:
+Matrix 8 x 1
+    1.000
+    2.000
+    3.000
+    4.000
+    5.000
+    6.000
+    7.000
+    8.000
+CLIENT: saving encrypted samples . . .
+SERVER: loading server side context . . .
+HElib CKKS (NO SECRET KEY)
+m=2048 r=52 L=1024 c=2
+SecurityLevel=-105
+SERVER: loading encrypted model . . .
+SERVER: loading encrypted samples . . .
+SERVER: predicting over encrypted samples . . .
+SERVER: saving encrypted predictions . . .
+CLIENT: loading encrypted predictions . . .
+CLIENT: decrypting predictions . . .
+CLIENT: assessing results so far . . .
+
+Weights * User data:
+
+Matrix 12 x 1
+    6.804
+   -1.881
+  -11.971
+    9.325
+    5.260
+    8.012
+    4.206
+    4.049
+   -1.709
+   -3.246
+   -4.612
+   -1.708
+

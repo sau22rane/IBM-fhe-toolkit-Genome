@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named a.out
+# Target rules for targets named Genome
 
 # Build rule for target.
-a.out: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 a.out
-.PHONY : a.out
+Genome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Genome
+.PHONY : Genome
 
 # fast build rule for target.
-a.out/fast:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
-.PHONY : a.out/fast
+Genome/fast:
+	$(MAKE) -f CMakeFiles/Genome.dir/build.make CMakeFiles/Genome.dir/build
+.PHONY : Genome/fast
 
 Genome.o: Genome.cpp.o
 
@@ -129,7 +129,7 @@ Genome.o: Genome.cpp.o
 
 # target to build an object file
 Genome.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Genome.cpp.o
+	$(MAKE) -f CMakeFiles/Genome.dir/build.make CMakeFiles/Genome.dir/Genome.cpp.o
 .PHONY : Genome.cpp.o
 
 Genome.i: Genome.cpp.i
@@ -138,7 +138,7 @@ Genome.i: Genome.cpp.i
 
 # target to preprocess a source file
 Genome.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Genome.cpp.i
+	$(MAKE) -f CMakeFiles/Genome.dir/build.make CMakeFiles/Genome.dir/Genome.cpp.i
 .PHONY : Genome.cpp.i
 
 Genome.s: Genome.cpp.s
@@ -147,7 +147,7 @@ Genome.s: Genome.cpp.s
 
 # target to generate assembly for a file
 Genome.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Genome.cpp.s
+	$(MAKE) -f CMakeFiles/Genome.dir/build.make CMakeFiles/Genome.dir/Genome.cpp.s
 .PHONY : Genome.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... a.out"
+	@echo "... Genome"
 	@echo "... Genome.o"
 	@echo "... Genome.i"
 	@echo "... Genome.s"
